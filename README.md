@@ -51,7 +51,6 @@ You can add `jQuery.datetimepicker` options according to your needs.
     datetime = forms.DateTimeField(
         widget=DateTimePicker(options={
 	    'format': '%Y-%m-%d %H:%M',
-	    'language': 'en-us',
 	}),
     )
 ```

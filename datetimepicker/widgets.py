@@ -87,8 +87,7 @@ class DateTimePicker(DateTimeInput):
         # as the 'format' keyword argument
         if format_string:
             options.update({'format': format_string})
-        options.update({'language': translation.get_language()})
-
+        
         self.options = options
         self.div_attrs = div_attrs
         self.use_script_tag = script_tag
